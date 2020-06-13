@@ -76,7 +76,9 @@
           <height>480</height>
           <format>R8G8B8</format>
         </image>
-        <depth_camera/>
+        <depth_camera>
+          
+        </depth_camera>
         <clip>
           <near>0.1</near>
           <far>20</far>
