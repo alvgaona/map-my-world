@@ -20,9 +20,16 @@ In order to pass this project one must complete the [rubric points][Rubric Point
   * For macOS same deal as `make`, install [Xcode] command line tools.
   * For Windows is recommended using [MinGW].
 
-## Code Style
+## RTAB-Map Database
 
-This project follows [Google's C++ Style Guide].
+In order to pull the `rtabmap.db` you must have `git lfs` installed.
+Then you must execute the following command.
+
+```bash
+$ git lfs pull
+```
+
+Or you can also download it from [here][RTAB-Map Database].
 
 [CMake]: https://cmake.org/install
 [Xcode]: https://developer.apple.com/xcode/features
@@ -32,3 +39,4 @@ This project follows [Google's C++ Style Guide].
 [Rubric Points]: docs/RubricPoints.md
 [.clang-format]: .clang-format
 [RTAB-Map]: images/rtabmap.png
+[RTAB-Map Database]: https://drive.google.com/file/d/1BmmnVC5Y_9ZWOOQqZQEuhi9o5j-2CiAN/view?usp=sharing
